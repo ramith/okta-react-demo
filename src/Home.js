@@ -135,7 +135,7 @@ export default withOktaAuth(class Home extends Component {
             paddingLeft: '20px',
           }}
         >
-          <h1 style={{ color: 'blue' }}>Prime Therapeutics Demo App</h1>
+          <h1 style={{ color: 'blue' }}>National Average Drug Acquisition Cost</h1>
         </div>
         {this.props.authState?.isAuthenticated ? <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '-50px' }}>
           <input
